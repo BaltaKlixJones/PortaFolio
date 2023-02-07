@@ -1,9 +1,5 @@
 import "./NavBar.css"
 import React from "react"
-// import { useRef } from "react"
-// import Home from "../Home/Home"
-// import Proyects from "../Proyects/Proyects"
-// import Skills from "../Skills/Skills"
 import {  animateScroll as scroll } from "react-scroll";
 
 export default function NavBar () {
@@ -34,7 +30,6 @@ export default function NavBar () {
             <li onClick={scrollToSkills} className="nav-item">Skills</li>
             <li onClick={scrollToProyects} className="nav-item">Proyects</li>
             <li onClick={scrollToBottom} className="nav-item">Contact</li>
-            
           </ul>
         </div>
       </nav>
