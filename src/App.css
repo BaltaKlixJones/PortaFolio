@@ -5,6 +5,7 @@
 }
 
 .container {
+  /* background-color:#50577A; */
   background-color:#50577A;
   display: flex;
   flex-direction: column;
