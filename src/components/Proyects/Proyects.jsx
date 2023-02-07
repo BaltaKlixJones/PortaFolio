@@ -17,14 +17,14 @@ export default function Proyects () {
                 <button>Codigo</button>
               </div>
               <div className="card">
-                <img style={{height:"400px"}} src="https://icon-library.com/images/chat-flat-icon/chat-flat-icon-7.jpg" alt="yourtext2" className="card-image" />
+                <img  src="https://miro.medium.com/max/650/0*ibhadGeHuO10edW6.png" alt="yourtext2" className="card-image" />
                 <h3 className="card-title">CHAT ONLINE</h3>
                 <p className="card-text">Este fue un proyecto creado para hablar en linea con distintas personas </p>
                 <button>Video</button>
                 <button>Codigo</button>
               </div>
               <div className="card">
-                <img src="https://i.pinimg.com/originals/0f/6e/a6/0f6ea6a66666af19f0739fa60055b9f4.png" alt="yourtext3" className="card-image" />
+                <img style={{height:"270px"}} src="https://i.pinimg.com/originals/0f/6e/a6/0f6ea6a66666af19f0739fa60055b9f4.png" alt="yourtext3" className="card-image" />
                 <h3 className="card-title">Pagina de Vehiculos</h3>
                 <p className="card-text">Esta pagina fue creada con Python para el Proyecto final de CoderHouse, donde se pueden ver distintos tipos de vehiculos y su hsitoria </p>
                 <button>Video</button>

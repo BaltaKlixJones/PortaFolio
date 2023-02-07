@@ -1,7 +1,39 @@
-/* .form-container {
-    background-color: #E9E8E8
-} */
-/* 
-.form {
+.form-container {
+    background-color: #453c67;
+    width: 50%;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+label{ 
+width: 50%;
+padding: 20px;
+color: #f9f9f9;
 
-} */
+
+}
+
+input[type="text"],
+  input[type="email"],
+  textarea {
+    margin: 3%;
+    padding: 10px;
+     width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  textarea {
+    height: 100px;
+  }
+
+  input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
