@@ -2,6 +2,8 @@ import "./NavBar.css"
 import React from "react"
 import {  animateScroll as scroll } from "react-scroll";
 
+
+
 export default function NavBar () {
 
    
@@ -17,7 +19,7 @@ export default function NavBar () {
     }
 
     const scrollToProyects = () => {
-        scroll.scrollTo(1180, 0)
+        scroll.scrollTo(1240, 0)
     }
 
     return (

@@ -1,15 +1,16 @@
 .container-body {
     display: flex;
   align-items: center;
-    color: black;
+    
     background-color: #453C67;
     height: 250px;
     /* background-color: #7B8FA1; */
 }
 .texto-body {
     font-size: 25px ;
-    color: black;
+    color: #1b1d28;
     margin: 20px;
+    font-weight: bold;
   
 }
 
@@ -21,5 +22,76 @@
     margin-left: 10px;
 }
 
+
+.container-CV {
+    background-image: url("../../../public/CV.jpeg");
+    margin-right: 20px;
+    margin-left: 0%;
+    /* border: 5px solid #352e4e; */
+    border-radius: 50px;
+    transition: transform 1.5s;
+    transform: scale(1);
+}
+
+.btn-CV {
+    
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    font-size: 0px;
+    height: 190px;
+    width: 150px;
+    background-color: rgba(234, 14, 14, 0);
+    margin: 3%;
+    transition: transform 0.2s;
+    transform: scale(1);
+}
+
+.container-CV:hover {
+    background-image: url("../../../public/CV.jpeg");
+    opacity: 0.6;
+    background-repeat: none;
+    width: 200px;
+    height: 200px;
+    transform: scale(1.2);
+}
+
+.btn-CV:hover { 
+    
+    color: rgb(71, 11, 44);
+    opacity: 1 ;
+    font-size: 20px;
+    cursor: not-allowed;
+    border-radius: 50px;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 500px) {
+    .container-body {
+      width: 100%;
+      color: rgb(6, 0, 0);
+      height: 400px;
+      
+    }
+    .texto-body {
+        bottom: 210px;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .img-mia {
+        position: absolute;
+        
+        top: 135px;
+        width: 150px;
+        height: 150px;
+        margin: 180px;
+        
+    }
+    
+  }
   
   
