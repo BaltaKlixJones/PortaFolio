@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 export default function Proyects() {
   return (
     <div className="titulo-proyects">
-      PROYECTS
+      Labs
       <div className="cards-container">
         <div className="card">
           <img
-            src="https://cdn.dribbble.com/users/1081076/screenshots/2832850/pokemongo.gif"
+            src="https://www.pngplay.com/wp-content/uploads/10/Pokemon-Free-Picture-PNG.png"
             alt="yourtext1"
             className="card-image"
           />
@@ -57,7 +57,7 @@ export default function Proyects() {
           <img
             src="https://i.pinimg.com/originals/0f/6e/a6/0f6ea6a66666af19f0739fa60055b9f4.png"
             alt="yourtext3"
-            className="card-image"
+            className="card-image-auto"
           />
           <h3 className="card-title">Pagina de Vehiculos</h3>
           <p className="card-text">

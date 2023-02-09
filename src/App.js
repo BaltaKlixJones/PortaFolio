@@ -7,6 +7,7 @@ import Proyects from "./components/Proyects/Proyects";
 import Form from "./components/Form/Form";
 import Contact from "./components/Contact/Contact";
 
+
 function App() {
   return (
     <div className="App">
