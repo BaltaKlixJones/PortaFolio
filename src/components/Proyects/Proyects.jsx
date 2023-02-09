@@ -1,4 +1,6 @@
 import "./Proyects.css";
+import { Link } from "react-router-dom";
+
 
 export default function Proyects() {
   return (
@@ -16,14 +18,18 @@ export default function Proyects() {
             Este fue el Proyecto Individual de Soy Henry, donde se extrajo
             informacion de la API de Pokemones
           </p>
+          
           <button className="video-button">
             <i className="fa fa-video-camera video-icon" aria-hidden="true"></i>
             Video
           </button>
+         
+          <Link to="https://github.com/BaltaKlixJones/PI-POKEMON" target="_blank"> 
           <button className="video-button">
             <i className="fa fa-video-camera video-icon" aria-hidden="true"></i>
             Codigo
           </button>
+          </Link>
         </div>
         <div className="card">
           <img
@@ -40,10 +46,12 @@ export default function Proyects() {
             <i className="fa fa-video-camera video-icon" aria-hidden="true"></i>
             Video
           </button>
+          <Link to ="https://github.com/BaltaKlixJones/CHAT-ONLINE" target="_blank">
           <button className="video-button">
             <i className="fa fa-video-camera video-icon" aria-hidden="true"></i>
             Codigo
           </button>
+          </Link>
         </div>
         <div className="card">
           <img
@@ -61,10 +69,12 @@ export default function Proyects() {
             <i className="fa fa-video-camera video-icon" aria-hidden="true"></i>
             Video
           </button>
+          <Link to="https://github.com/BaltaKlixJones/Proyecto-Python-Autos" target="_blank">
           <button className="video-button">
             <i className="fa fa-video-camera video-icon" aria-hidden="true"></i>
             Codigo
           </button>
+          </Link>
         </div>
       </div>
     </div>
