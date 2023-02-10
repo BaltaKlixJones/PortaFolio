@@ -58,7 +58,7 @@ button[type="submit"] {
 .card-container {
   width: 900px;
   height: 500px;
-  
+  /* background-image: url('https://cdn-icons-png.flaticon.com/512/6674/6674627.png'); */
   background-color: #7f78788e;
   background-repeat: none;
   background-size: cover;
