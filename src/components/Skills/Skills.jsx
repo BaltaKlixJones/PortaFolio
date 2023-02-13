@@ -4,7 +4,10 @@ export default function Skills() {
   return (
     <div className="skills-container">
       <div className="titulo-skills1">
-        <h1>Skills</h1>
+        <hr />
+        <h1 style={{color: "black", textAlign: "left" , marginLeft: "40px" }}>Skills</h1>
+        <h3 style={{color: "black", textAlign: "left" , marginLeft: "40px" }}>A lo largo de mis estudios he aprendido distintas habilidades /  Throughout my studies I learned different skills.</h3>
+        
       </div>
 
       <img
@@ -26,14 +29,14 @@ export default function Skills() {
       />
 
       <img
-        // style={{width: "300px", marginRight: "0px", marginLeft: "0px"}}
+        
         className="skills-react"
         src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png"
         alt=""
       />
 
       <img
-        // style={{width: "250px", height:"100px", marginRight: "0px", marginLeft: "0px", marginBottom:"6%"}}
+        
         className="skills-redux"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/1200px-Redux_Logo.png"
         alt=""
@@ -52,7 +55,7 @@ export default function Skills() {
       />
 
       <img
-        // style={{width: "250px", height:"100px", marginRight: "0px", marginLeft: "20px", marginBottom:"6%"}}
+       
         className="skills-git"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/2560px-Git-logo.svg.png"
         alt=""

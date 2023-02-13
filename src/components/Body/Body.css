@@ -1,23 +1,30 @@
 .container-body {
   display: flex;
   align-items: center;
-
-  background-color: #453c67;
+  margin: 30px;
+  /* background-color: #453c67; */
+  /* background-color: #117c6f; */
+  overflow: scroll;
   height: 250px;
   /* background-color: #7B8FA1; */
 }
 .texto-body {
   font-size: 25px;
   color: #1b1d28;
-  margin: 20px;
+  margin-top:200px;
+  margin-left : 20px;
+  margin-right : 20px;
   font-weight: bold;
+  
 }
 
-.img-mia {
+.img-body {
+  
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 0%;
   margin-left: 10px;
+  margin-right: 100px;
 }
 
 .container-CV {
@@ -62,7 +69,7 @@
   font-weight: bold;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .container-body {
     width: 100%;
     color: rgb(6, 0, 0);

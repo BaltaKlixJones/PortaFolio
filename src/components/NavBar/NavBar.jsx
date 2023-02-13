@@ -11,12 +11,16 @@ export default function NavBar() {
   const scrollToBottom = () => {
     scroll.scrollToBottom();
   };
-  const scrollToSkills = () => {
-    scroll.scrollTo(480, 0);
+  const scrollToAbout = () => {
+    scroll.scrollTo(850, 0);
   };
 
+  const srollToSkils = () => {
+    scroll.scrollTo(1170, 0);
+  }
+
   const scrollToProyects = () => {
-    scroll.scrollTo(1180, 0);
+    scroll.scrollTo(2180, 0);
   };
 
 
@@ -29,7 +33,10 @@ export default function NavBar() {
           <li onClick={scrollToTop} className="nav-item">
             Home
           </li>
-          <li onClick={scrollToSkills} className="nav-item">
+          <li onClick={scrollToAbout} className="nav-item">
+            About
+          </li>
+          <li onClick={srollToSkils} className="nav-item">
             Skills
           </li>
           <li onClick={scrollToProyects} className="nav-item">
