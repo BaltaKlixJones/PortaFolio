@@ -16,7 +16,7 @@ export default function NavBar() {
   };
 
   const srollToSkils = () => {
-    scroll.scrollTo(1170, 0);
+    scroll.scrollTo(1370, 0);
   }
 
   const scrollToProyects = () => {
