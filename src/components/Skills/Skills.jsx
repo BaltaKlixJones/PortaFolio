@@ -1,9 +1,10 @@
 import "./Skills.css";
-
+import Titulo from "../Titulo/Title";
 export default function Skills() {
   return (
     <div className="skills-container">
       <div className="titulo-skills1">
+        <Titulo/>
         <hr />
         <h1 style={{color: "black", textAlign: "left" , marginLeft: "40px" }}>Skills</h1>
         <h3 style={{color: "black", textAlign: "left" , marginLeft: "40px" }}>A lo largo de mis estudios he aprendido distintas habilidades /  Throughout my studies I learned different skills.</h3>

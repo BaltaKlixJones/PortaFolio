@@ -1,4 +1,5 @@
 import "./Body.css";
+import Titulo from "../Titulo/Title";
 
 export default function Body() {
   return (
@@ -31,6 +32,7 @@ export default function Body() {
         to read my presentation!
       </p>
 
+      
     </div>
   );
 }
