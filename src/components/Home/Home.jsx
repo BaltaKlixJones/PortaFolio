@@ -17,7 +17,7 @@ export default function Home() {
           src={yo}
           alt=""
           />
-          <h5 style={{marginLeft: "5px",  fontFamily:"Impact", letterSpacing:"3px"}}> Full Stack Developer</h5>
+          <h5 style={{marginLeft: "5px",  fontFamily:"Impact", letterSpacing:"3px", color: "black"}}> Full Stack Developer</h5>
       
       </div>
     </div>
