@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 export default function Contact() {
   return (
     <div className="container-contact">
+     
       <div className="contact">
+        
         {/* <Link to = "https://www.instagram.com/baltaklixj_/" target="_blank">
         
         <img
@@ -22,6 +24,7 @@ export default function Contact() {
           alt=""
         />
         </Link> */}
+        
         <Link to ="https://www.linkedin.com/in/baltasar-klix-jones-180b38256/" target="_blank">
         <img
         style={{
@@ -56,7 +59,7 @@ export default function Contact() {
           alt=""
         />
         </Link>
-        <Link to ="https://wa.me/543874188653?text=Hola!%20Me%20llamo%20...%20y%20me%20gustaría%20saber%20...%20" target="_blank">
+        <Link to ="https://wa.me/543874188653?text=Hola!%20...%20" target="_blank">
         <img
         style={{
             width: " 50px",
