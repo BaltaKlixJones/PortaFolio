@@ -1,5 +1,17 @@
 import "./Skills.css";
 import Titulo from "../Titulo/Title";
+import Css from "../../Imagenes/CssLogo.png"
+import Js from "../../Imagenes/JsLogo.png"
+import Html from "../../Imagenes/HTMLLogo.png"
+import Git from "../../Imagenes/GitLogo.png"
+import Jquery from "../../Imagenes/JqueryLogo.svg"
+import Node from "../../Imagenes/NodeLogo.png"
+import React from "../../Imagenes/ReactLogo.png"
+import Redux from "../../Imagenes/ReduxLogo.png"
+import Postgre from "../../Imagenes/Postgrelogo.svg"
+import Express from "../../Imagenes/ExpressLogo.svg"
+
+
 export default function Skills() {
   return (
     <div className="skills-container">
@@ -13,65 +25,65 @@ export default function Skills() {
 
       <img
         className="skills"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"
+        src={Html}
         alt=""
       />
 
       <img
         className="skills"
-        src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+        src={Css}
         alt=""
       />
 
       <img
         className="skills-js"
-        src="https://seeklogo.com/images/O/ottawa-js-logo-394DB38073-seeklogo.com.png"
+        src={Js}
         alt=""
       />
 
       <img
         
         className="skills-react"
-        src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png"
+        src={React}
         alt=""
       />
 
       <img
         
         className="skills-redux"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/1200px-Redux_Logo.png"
+        src={Redux}
         alt=""
       />
 
       <img
         className="skills"
-        src="https://cdn-icons-png.flaticon.com/512/919/919825.png"
+        src={Node}
         alt=""
       />
 
       <img
-        className="skills"
-        src="https://skillshack.blob.core.windows.net/uploads/express.webp"
+        className="skills-jquery"
+        src={Express}
         alt=""
       />
 
       <img
        
         className="skills-git"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/2560px-Git-logo.svg.png"
+        src={Git}
         alt=""
       />
 
       <img
         // style={{height:"300px", width:"300px",  marginBottom:"-0%", marginRight: "0px",}}
         className="skills-jquery"
-        src="https://www.logo.wine/a/logo/JQuery/JQuery-Logo.wine.svg"
+        src={Jquery}
         alt=""
       />
 
       <img
         className="skills"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+        src={Postgre}
         alt=""
       />
     </div>

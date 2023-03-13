@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="container-contact">
       <div className="contact">
-        <Link to = "https://www.instagram.com/baltaklixj_/" target="_blank">
+        {/* <Link to = "https://www.instagram.com/baltaklixj_/" target="_blank">
         
         <img
           style={{
@@ -21,7 +21,7 @@ export default function Contact() {
           src="https://eltallerdehector.com/wp-content/uploads/2022/06/cd939-logo-instagram-png.png"
           alt=""
         />
-        </Link>
+        </Link> */}
         <Link to ="https://www.linkedin.com/in/baltasar-klix-jones-180b38256/" target="_blank">
         <img
         style={{

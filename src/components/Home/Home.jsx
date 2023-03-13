@@ -1,4 +1,5 @@
 import "./Home.css";
+import yo from "../../Imagenes/img-mia2.jpg"
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
           </h5>
         <img
           className="img-mia"
-          src="https://josecarlosalmansa.com/img/monitor-web.png"
+          src={yo}
           alt=""
           />
           <h5 style={{marginLeft: "5px",  fontFamily:"Impact", letterSpacing:"3px"}}> Full Stack Developer</h5>

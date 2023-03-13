@@ -1,24 +1,39 @@
 import React, { useState } from "react";
 import "./Title.css";
+// import PDFViewer from "../CV/CvPDF";
+// import pdfFile from '../CV/CV.pdf';
 
 export default function Titulo() {
-  const [showImage, setShowImage] = useState(false);
+  // const [showImage, setShowImage] = useState(false);
 
-  const handlerClick = () => {
-    setShowImage(true);
-    const backgroundOverlay = document.querySelector(".background-overlay");
-    backgroundOverlay.style.opacity = 1;
-  };
+  // const handlerClick = () => {
+  //   setShowImage(true);
+  //   const backgroundOverlay = document.querySelector(".background-overlay");
+  //   backgroundOverlay.style.opacity = 1;
+  // };
 
-  const handlerClose = () => {
-    setShowImage(false);
-    const backgroundOverlay = document.querySelector(".background-overlay");
-    backgroundOverlay.style.opacity = 0;
-  };
+  // const handlerClose = () => {
+  //   setShowImage(false);
+  //   const backgroundOverlay = document.querySelector(".background-overlay");
+  //   backgroundOverlay.style.opacity = 0;
+  // };
+
+  // const handleDownloadPDF = async () => {
+  //   const fileUrl = process.env.PUBLIC_URL + "https://docs.google.com/document/d/14T18Vn2qtzWxFXuKdhtrvHjFGTP24SeOpnSDN1JJOCU/share?usp=sharing"
+  //   const response = await fetch(fileUrl);
+  //   const blob = await response.blob();
+  //   const url = window.URL.createObjectURL(new Blob([blob]));
+  //   const link = document.createElement('a');
+  //   link.href = url;
+  //   link.setAttribute('download', 'Cv-Baltasar.pdf');
+  //   document.body.appendChild(link);
+  //   link.click();
+  // };
 
   return (
     <div>
-      <button class="continue-application" onClick={handlerClick}>
+      <a href="https://docs.google.com/document/d/14T18Vn2qtzWxFXuKdhtrvHjFGTP24SeOpnSDN1JJOCU/edit?usp=sharing" target="_blank">
+      <button class="continue-application" >
         <div>
           <div class="pencil"></div>
           <div class="folder">
@@ -30,20 +45,9 @@ export default function Titulo() {
             <div class="paper"></div>
           </div>
         </div>
-        Título
+        Curriculum
       </button>
-      {showImage && (
-        <div>
-          <div className="background-overlay" onClick={handlerClose}></div>
-          <div className="overlay">
-            <img
-            style={{width:"950px", height:"800px"}}
-              src="https://cdn.memegenerator.es/descargar/3517854"
-              alt="Imagen superpuesta"
-            />
-          </div>
-        </div>
-      )}
+        </a>
     </div>
   );
 }
